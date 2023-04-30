@@ -18,8 +18,8 @@ an API for an ecommerce platform admin to manage product inventory
 
 * for creating an Admin Id  __localhost:8500/admin/create__.
 * to Login an Admin Id __localhost:8500/admin/login__.
-* then Token of jwt will generated copy that token and go to head,in key write Authorisation ,in value write Bearer and copy that token.
-* for creating   __localhost:8500/products/create__  method: POST , here you have to give key as title and value as products.
+* then Token of jwt will be generated copy that token and go to head, in key write Authorisation, in value write Bearer and copy that token.
+* for creating   __localhost:8500/products/create__  method: POST , here you have to give key as produt and value as product name.
 * to list products  __localhost:8500/products__ method:Get.,To list all the products
 * for deleting products   __localhost:8500/products/Id:__ method: Delete , here you have to give _id of the product which is to be deleted.
 * to update quantity of a product (can be incremented or decremented)  __localhost:8500/products/:id/update_quantity__ method Post,In key write number,in value write the desired value.
