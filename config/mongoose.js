@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 mongoose.set('strictQuery', false);
 
 //connect to the database
-mongoose.connect("mongodb://0.0.0.0:27017/hardikDB");
+mongoose.connect("mongodb+srv://hardikgupta7500:hardik123@cluster0.kl1iqow.mongodb.net/hardikDB");
 
 //acquire the connection(to check if it's successful)
 const db= mongoose.connection;
